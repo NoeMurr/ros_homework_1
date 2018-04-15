@@ -1,0 +1,5 @@
+<launch>
+    <node name="publisher_node" pkg="ros_homework_1" type="publisher_node" output="screen"/>
+    <node name="listener_node" pkg="ros_homework_1" type="listener_node" output="screen" launch-prefix="xterm -e"/>
+    <node name="key_reader_node" pkg="ros_homework_1" type="key_reader_node" output="screen" launch-prefix="xterm -e"/>
+</launch>
